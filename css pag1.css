@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+  
+    background: black;
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+    border: 1px solid red;
+    padding: 20px;
+    margin: 30px;
+}
+
+img {
+
+    float: left;
+
+}
+
+.a-1 {
+    padding: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+button {
+    --hover-shadows: 16px 16px 33px #121212,
+        -16px -16px 33px #303030;
+    --accent: rgb(255, 0, 0);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 1.1em;
+    background-color: #212121;
+    color: white;
+    padding: 1em 2em;
+    transition: box-shadow ease-in-out 0.3s,
+        background-color ease-in-out 0.1s,
+        letter-spacing ease-in-out 0.1s,
+        transform ease-in-out 0.1s;
+    box-shadow: 13px 13px 10px #1c1c1c,
+        -13px -13px 10px #262626;
+
+}
+
+button:hover {
+    box-shadow: var(--hover-shadows);
+}
+
+button:active {
+    box-shadow: var(--hover-shadows),
+        var(--accent) 0px 0px 30px 5px;
+    background-color: var(--accent);
+    transform: scale(0.95);
+}
+
+.sc-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 0em;
+    justify-items: left;
+    align-items: left;
+}
+
+.f1 {
+    width: 320px;
+    height: 300px;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: rgba(243, 12, 12);
+}
+
+
+.f2 {
+    width: 320px;
+    height: 300px;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: rgba(243, 12, 12);
+}
+
+footer {
+    border: solid black;
+    text-align: center;
+    background-color: rgba(225, 225, 225, 0.19);
+    margin: 25px 330px;
+}
+
+.maco {
+    float: right;
+}
+
+.ci1 {
+    float: left;
+    margin-right: 12px;
+    margin-right: 12px;
+}
+
+.tx02 {
+    margin-left: 122px;
+    padding-right: 112px;
+}
+
+fieldset {
+    border-color: rgba(255, 0, 0, 0.555);
+}
+
+h2 {
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+.price-box {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    border: 1px solid rgb(175, 11, 11);
+    margin: 0;
+    padding: 0;
+}
+
+.price-box .header {
+
+    background-color: #111;
+    color: #fff;
+    font-size: 25px;
+}
+
+.price-box li {
+    padding: 20px;
+    border-bottom: 20px solid rgb(0, 0, 0);
+    text-align: center;
+    border: rgb(10, 10, 10);
+    text-align: center  ;
+}
+
+.btn {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
